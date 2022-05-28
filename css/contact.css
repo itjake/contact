@@ -1,0 +1,153 @@
+.contact__second {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 167px;
+}
+textarea{
+  resize: none;
+}
+.contact__first {
+  margin-top: 161px;
+  text-align: center;
+}
+
+.contact__left{
+  margin-left: 37px;
+}
+.contact__right{
+  margin-right: 37px;
+}
+.contact__title {
+  font-family: Adobe Garamond Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  color: #14274a;
+}
+
+.contact__subinfo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  color: #14274a;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: 117px;
+}
+
+.contact__address {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #14274a;
+  width: 570px;
+}
+
+.map{
+  margin-top: 50px;
+}
+.contact__map {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: #14274a;
+  margin-top: 28px;
+  border: none;
+  background: whitesmoke;
+}
+
+.contact__ring {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #14274a;
+  width: 653px;
+  margin-top: 54px;
+}
+
+svg {
+  margin-left: 15px;
+}
+
+.contact__name {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #14274a;
+}
+
+.name__input {
+  background: #ffffff;
+  border: 2px solid rgba(20, 39, 74, 0.5);
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  margin-top: 8px;
+}
+.contact__email {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #14274a;
+  margin-top: 30px;
+}
+
+.email__input {
+  background: #ffffff;
+  border: 2px solid rgba(20, 39, 74, 0.5);
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  margin-top: 8px;
+}
+.contact__message {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #14274a;
+  margin-top: 30px;
+}
+
+.message__input {
+  background: #ffffff;
+  border: 2px solid rgba(20, 39, 74, 0.5);
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  margin-top: 8px;
+  height: 200px;
+}
+
+.input__submit {
+  background: #e0b973;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 11px 10px;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+}
+
+.contact__submit{
+  margin-top: 28px;
+  margin-left: 190px;
+}

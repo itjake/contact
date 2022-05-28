@@ -1,0 +1,132 @@
+.header__content {
+  background: url(../img/header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__img__top {
+  background: url(../img/absolute.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 149px;
+  width: 256px;
+  margin-left: 115px;
+  position: relative;
+  background: #e0b973;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.header__img__top::before {
+  position: absolute;
+  content: "LUXURY";
+  top: 25%;
+  left: 20%;
+  font-family: Adobe Garamond Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #14274a;
+}
+.header__img__top::after {
+  position: absolute;
+  content: "HOTELS";
+  top: 54%;
+  left: 38%;
+  font-family: Adobe Garamond Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #14274a;
+}
+.header__ul {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-right: 100px;
+  margin-top: 39px;
+}
+
+.header__li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  list-style: none;
+  position: relative;
+}
+.header__li::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2%;
+  background-color: #ffffff;
+  transition: 0.5s;
+  right: 0%;
+}
+.header__li::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2%;
+  background-color: #ffffff;
+  top: 30%;
+  left: 0%;
+  transition: 0.5s;
+}
+
+.header__li:hover:before {
+  width: 100%;
+}
+.header__li:hover:after {
+  width: 100%;
+}
+
+.line {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  list-style: none;
+  position: relative;
+}
+
+.line::before {
+  position: absolute;
+  content: "";
+  border: 0px solid #ffffff;
+  background: #ffffff;
+  width: 100%;
+  height: 3%;
+  top: 30%;
+}
+
+.header__a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__main{
+  margin-top: 47px;
+}
+.header__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 98px;
+  color: #ffffff;
+  text-align: center;
+}
